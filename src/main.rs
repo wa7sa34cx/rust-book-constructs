@@ -1,9 +1,9 @@
 struct User {
-        username: String,
-        email: String,
-        sign_in_count: u64,
-        active: bool,
-    }
+    username: String,
+    email: String,
+    sign_in_count: u64,
+    active: bool,
+}
 
 #[derive(Debug)]
 struct Rectangle {
